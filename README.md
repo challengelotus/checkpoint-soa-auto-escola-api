@@ -56,4 +56,4 @@ Ela implementa operações de CRUD (criação, leitura, atualização e exclusã
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/challengelotus/auto-escola-api.git
+   git clone https://github.com/challengelotus/checkpoint3-soa-auto-escola-api.git

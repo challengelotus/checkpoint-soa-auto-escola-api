@@ -1,0 +1,1 @@
+ALTER TABLE instrutores ADD COLUMN ativo TINYINT DEFAULT 1;

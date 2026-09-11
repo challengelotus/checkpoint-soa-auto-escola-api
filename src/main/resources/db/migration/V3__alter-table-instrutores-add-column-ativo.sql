@@ -1,1 +1,1 @@
-ALTER TABLE instrutores ADD COLUMN ativo TINYINT DEFAULT 1;
+alter table instrutores add column ativo tinyint default 1;

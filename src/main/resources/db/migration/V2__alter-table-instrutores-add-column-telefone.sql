@@ -1,1 +1,1 @@
-ALTER TABLE instrutores ADD COLUMN telefone VARCHAR(20) NOT NULL;
+alter table instrutores add column telefone varchar(20) not null;

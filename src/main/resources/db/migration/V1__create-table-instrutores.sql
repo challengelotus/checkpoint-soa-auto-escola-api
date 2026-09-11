@@ -1,16 +1,16 @@
-CREATE TABLE instrutores(
-    id BIGINT NOT NULL AUTO_INCREMENT,
-    nome VARCHAR(100) NOT NULL,
-    email VARCHAR(100) NOT NULL UNIQUE,
-    cnh VARCHAR(11) NOT NULL UNIQUE,
-    especialidade VARCHAR(20) NOT NULL,
-    logradouro VARCHAR(100) NOT NULL,
-    numero VARCHAR(10),
-    complemento VARCHAR(20),
-    bairro VARCHAR(100) NOT NULL,
-    cidade VARCHAR(100) NOT NULL,
-    uf VARCHAR(2) NOT NULL,
-    cep VARCHAR(9) NOT NULL,
+create table instrutores(
+    id bigint not null auto_increment,
+    nome varchar(100) not null,
+    email varchar(100) not null unique,
+    cnh varchar(11) not null unique,
+    especialidade varchar(20) not null,
+    logradouro varchar(100) not null,
+    numero varchar(10),
+    complemento varchar(20),
+    bairro varchar(100) not null,
+    cidade varchar(100) not null,
+    uf varchar(2) not null,
+    cep varchar(9) not null,
 
-    PRIMARY KEY(id)
+    primary key(id)
 );

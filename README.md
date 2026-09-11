@@ -55,7 +55,7 @@ Ela implementa operações de CRUD (criação, leitura, atualização e exclusã
 ### Instruções
 
 - **Agendamento** – permite cadastrar uma instrução/aula vinculando um aluno e um instrutor, além da especialidade e data/hora.
-- **Cancelamento** – permite cancelar uma instrução cadastrada.
+- **Cancelamento por ID** – permite cancelar uma instrução cadastrada.
 
 ## 🔐 Autenticação
 
@@ -85,7 +85,7 @@ Ela implementa operações de CRUD (criação, leitura, atualização e exclusã
 | PUT | `/instrutores` | Atualizar dados do instrutor |
 | DELETE | `/instrutores/{id}` | Desativar instrutor |
 | POST | `/instrucoes` | Agendar instrução |
-| DELETE | `/instrucoes` | Cancelar instrução |
+| DELETE | `/instrucoes/{id}` | Cancelar instrução |
 | GET | `/health-check` | Verificar a integridade da API |
 
 ## ▶️ Como executar o projeto

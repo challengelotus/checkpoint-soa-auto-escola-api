@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 public class Aluno {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
 
     private String nome;
     private String email;
@@ -50,6 +50,9 @@ public class Aluno {
         }
         if(dados.telefone() != null && !dados.telefone().isBlank()) {
             this.telefone = dados.telefone();
+        }
+        if (dados.tipoCarta() != null) {
+            this.tipoCarta = dados.tipoCarta();
         }
         if(dados.endereco() != null) {
             this.endereco.atualizarInformacoes(dados.endereco());
